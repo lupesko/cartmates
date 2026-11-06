@@ -1,0 +1,33 @@
+:root {
+  --cm-ink: #171044;
+  --cm-text: #403d56;
+  --cm-muted: #615e78;
+  --cm-purple: #7759f5;
+  --cm-purple-strong: #6945e5;
+  --cm-purple-soft: #eee8ff;
+  --cm-page: #f8f5ff;
+  --cm-surface: #ffffff;
+  --cm-border: #e5dcff;
+  --cm-success: #138448;
+  --cm-success-ink: #087a34;
+  --cm-success-soft: #e6f6e9;
+  --cm-danger: #c92835;
+  --cm-danger-soft: #ffe7ec;
+  --cm-sunshine: #ffc400;
+  --cm-scrim: rgb(24 17 48 / 42%);
+  --cm-font: ui-rounded, 'SF Pro Rounded', 'Nunito Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --cm-radius-row: 18px;
+  --cm-radius-control: 28px;
+  --cm-radius-sheet: 36px;
+  --cm-space-1: 4px;
+  --cm-space-2: 8px;
+  --cm-space-3: 12px;
+  --cm-space-4: 16px;
+  --cm-space-5: 24px;
+  --cm-space-6: 32px;
+  --cm-shadow-row: 0 3px 9px rgb(34 22 79 / 7%);
+  --cm-shadow-button: 0 4px 10px rgb(34 22 79 / 10%);
+  --cm-touch-min: 44px;
+  --cm-motion-fast: 140ms;
+}
+@media (prefers-reduced-motion: reduce) { :root { --cm-motion-fast: 0ms; } }

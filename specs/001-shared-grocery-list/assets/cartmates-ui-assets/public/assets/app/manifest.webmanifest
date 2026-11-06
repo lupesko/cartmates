@@ -1,0 +1,28 @@
+{
+  "name": "CartMates",
+  "short_name": "CartMates",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5FF",
+  "theme_color": "#F8F5FF",
+  "icons": [
+    {
+      "src": "/assets/app/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/app/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/app/app-icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

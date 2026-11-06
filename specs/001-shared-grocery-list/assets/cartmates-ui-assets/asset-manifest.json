@@ -1,0 +1,635 @@
+{
+  "version": "1.0.0",
+  "assets": [
+    {
+      "name": "cart-mascot",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/cart-mascot.svg",
+      "width": 340,
+      "height": 260,
+      "role": "Sign-in hero, display at 210–230 px wide",
+      "description": "Smiling shopping cart with broccoli, tomato, bananas and golden rays",
+      "png": [
+        {
+          "path": "public/assets/illustrations/cart-mascot.png",
+          "width": 340,
+          "height": 260
+        },
+        {
+          "path": "public/assets/illustrations/cart-mascot@2x.png",
+          "width": 680,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "name": "cartmates-mark",
+      "folder": "brand",
+      "svg": "public/assets/brand/cartmates-mark.svg",
+      "width": 64,
+      "height": 64,
+      "role": "App header mark, display at 36 px",
+      "description": "CartMates grocery cart mark",
+      "png": [
+        {
+          "path": "public/assets/brand/cartmates-mark.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "public/assets/brand/cartmates-mark@2x.png",
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "name": "cartmates-logo",
+      "folder": "brand",
+      "svg": "public/assets/brand/cartmates-logo.svg",
+      "width": 292,
+      "height": 64,
+      "role": "Optional lockup; prefer live app-name text in header",
+      "description": "CartMates logo",
+      "png": [
+        {
+          "path": "public/assets/brand/cartmates-logo.png",
+          "width": 292,
+          "height": 64
+        },
+        {
+          "path": "public/assets/brand/cartmates-logo@2x.png",
+          "width": 584,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "name": "grocery-footer",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/grocery-footer.svg",
+      "width": 430,
+      "height": 220,
+      "role": "Decorative foreground on login, edge anchored",
+      "description": "Tomato, leafy greens and blue milk carton",
+      "png": [
+        {
+          "path": "public/assets/illustrations/grocery-footer.png",
+          "width": 430,
+          "height": 220
+        },
+        {
+          "path": "public/assets/illustrations/grocery-footer@2x.png",
+          "width": 860,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "name": "tomato",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/tomato.svg",
+      "width": 136,
+      "height": 132,
+      "role": "Optional reusable decorative produce",
+      "description": "Red tomato with green leaves",
+      "png": [
+        {
+          "path": "public/assets/illustrations/tomato.png",
+          "width": 136,
+          "height": 132
+        },
+        {
+          "path": "public/assets/illustrations/tomato@2x.png",
+          "width": 272,
+          "height": 264
+        }
+      ]
+    },
+    {
+      "name": "leafy-greens",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/leafy-greens.svg",
+      "width": 158,
+      "height": 122,
+      "role": "Optional reusable decorative produce",
+      "description": "Leafy green lettuce",
+      "png": [
+        {
+          "path": "public/assets/illustrations/leafy-greens.png",
+          "width": 158,
+          "height": 122
+        },
+        {
+          "path": "public/assets/illustrations/leafy-greens@2x.png",
+          "width": 316,
+          "height": 244
+        }
+      ]
+    },
+    {
+      "name": "milk-carton",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/milk-carton.svg",
+      "width": 112,
+      "height": 148,
+      "role": "Optional reusable decorative produce",
+      "description": "Blue and white milk carton",
+      "png": [
+        {
+          "path": "public/assets/illustrations/milk-carton.png",
+          "width": 112,
+          "height": 148
+        },
+        {
+          "path": "public/assets/illustrations/milk-carton@2x.png",
+          "width": 224,
+          "height": 296
+        }
+      ]
+    },
+    {
+      "name": "cart-bought",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/cart-bought.svg",
+      "width": 160,
+      "height": 160,
+      "role": "Bulk bought confirmation sheet, display at 104 px",
+      "description": "Shopping cart with green checkmark in a pale green circle",
+      "png": [
+        {
+          "path": "public/assets/illustrations/cart-bought.png",
+          "width": 160,
+          "height": 160
+        },
+        {
+          "path": "public/assets/illustrations/cart-bought@2x.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "name": "cart-empty",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/cart-empty.svg",
+      "width": 240,
+      "height": 200,
+      "role": "Friendly empty-list state, display at 170 px",
+      "description": "Empty smiling shopping cart on pale lavender circle",
+      "png": [
+        {
+          "path": "public/assets/illustrations/cart-empty.png",
+          "width": 240,
+          "height": 200
+        },
+        {
+          "path": "public/assets/illustrations/cart-empty@2x.png",
+          "width": 480,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "name": "celebration-rays",
+      "folder": "illustrations",
+      "svg": "public/assets/illustrations/celebration-rays.svg",
+      "width": 48,
+      "height": 40,
+      "role": "Decorative rays beside list heading",
+      "description": "Three golden celebration rays",
+      "png": [
+        {
+          "path": "public/assets/illustrations/celebration-rays.png",
+          "width": 48,
+          "height": 40
+        },
+        {
+          "path": "public/assets/illustrations/celebration-rays@2x.png",
+          "width": 96,
+          "height": 80
+        }
+      ]
+    },
+    {
+      "name": "login-waves",
+      "folder": "backgrounds",
+      "svg": "public/assets/backgrounds/login-waves.svg",
+      "width": 430,
+      "height": 220,
+      "role": "Login background; stretch to full screen width",
+      "description": "Two soft lavender waves",
+      "png": [
+        {
+          "path": "public/assets/backgrounds/login-waves.png",
+          "width": 430,
+          "height": 220
+        },
+        {
+          "path": "public/assets/backgrounds/login-waves@2x.png",
+          "width": 860,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "name": "plus",
+      "folder": "icons",
+      "svg": "public/assets/icons/plus.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Plus",
+      "png": [
+        {
+          "path": "public/assets/icons/plus.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/plus@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "folder": "icons",
+      "svg": "public/assets/icons/check.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Check",
+      "png": [
+        {
+          "path": "public/assets/icons/check.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/check@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "close",
+      "folder": "icons",
+      "svg": "public/assets/icons/close.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Close",
+      "png": [
+        {
+          "path": "public/assets/icons/close.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/close@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "trash",
+      "folder": "icons",
+      "svg": "public/assets/icons/trash.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Trash",
+      "png": [
+        {
+          "path": "public/assets/icons/trash.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/trash@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "more",
+      "folder": "icons",
+      "svg": "public/assets/icons/more.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "More",
+      "png": [
+        {
+          "path": "public/assets/icons/more.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/more@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "group",
+      "folder": "icons",
+      "svg": "public/assets/icons/group.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Group",
+      "png": [
+        {
+          "path": "public/assets/icons/group.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/group@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "checkbox-unchecked",
+      "folder": "icons",
+      "svg": "public/assets/icons/checkbox-unchecked.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Checkbox unchecked",
+      "png": [
+        {
+          "path": "public/assets/icons/checkbox-unchecked.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/checkbox-unchecked@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "checkbox-checked",
+      "folder": "icons",
+      "svg": "public/assets/icons/checkbox-checked.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Checkbox checked",
+      "png": [
+        {
+          "path": "public/assets/icons/checkbox-checked.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/checkbox-checked@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "sign-out",
+      "folder": "icons",
+      "svg": "public/assets/icons/sign-out.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Sign out",
+      "png": [
+        {
+          "path": "public/assets/icons/sign-out.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/sign-out@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "refresh",
+      "folder": "icons",
+      "svg": "public/assets/icons/refresh.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Refresh",
+      "png": [
+        {
+          "path": "public/assets/icons/refresh.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/refresh@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "wifi-off",
+      "folder": "icons",
+      "svg": "public/assets/icons/wifi-off.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Wifi off",
+      "png": [
+        {
+          "path": "public/assets/icons/wifi-off.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/wifi-off@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "folder": "icons",
+      "svg": "public/assets/icons/alert.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Alert",
+      "png": [
+        {
+          "path": "public/assets/icons/alert.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/alert@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "lock",
+      "folder": "icons",
+      "svg": "public/assets/icons/lock.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Lock",
+      "png": [
+        {
+          "path": "public/assets/icons/lock.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/lock@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "folder": "icons",
+      "svg": "public/assets/icons/chevron-down.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Chevron down",
+      "png": [
+        {
+          "path": "public/assets/icons/chevron-down.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/chevron-down@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "spinner",
+      "folder": "icons",
+      "svg": "public/assets/icons/spinner.svg",
+      "width": 24,
+      "height": 24,
+      "role": "24 px visual inside a minimum 44×44 px interactive target",
+      "description": "Spinner",
+      "png": [
+        {
+          "path": "public/assets/icons/spinner.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/spinner@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "google-g",
+      "folder": "icons",
+      "svg": "public/assets/icons/google-g.svg",
+      "width": 24,
+      "height": 24,
+      "role": "Google sign-in identity mark; preserve original colors",
+      "description": "Google G",
+      "png": [
+        {
+          "path": "public/assets/icons/google-g.png",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "path": "public/assets/icons/google-g@2x.png",
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "app-icon",
+      "folder": "app",
+      "svg": "public/assets/app/app-icon.svg",
+      "width": 512,
+      "height": 512,
+      "role": "Installable app icon; PNG 192 and 512 supplied",
+      "description": "CartMates app icon",
+      "png": [
+        {
+          "path": "public/assets/app/app-icon.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "public/assets/app/app-icon@2x.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "app-icon-maskable",
+      "folder": "app",
+      "svg": "public/assets/app/app-icon-maskable.svg",
+      "width": 512,
+      "height": 512,
+      "role": "Maskable app icon; opaque background and safe artwork inset",
+      "description": "CartMates maskable app icon",
+      "png": [
+        {
+          "path": "public/assets/app/app-icon-maskable.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "public/assets/app/app-icon-maskable@2x.png",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "favicon",
+      "folder": "app",
+      "svg": "public/assets/app/favicon.svg",
+      "width": 64,
+      "height": 64,
+      "role": "Small-size simplified cart for browser tab",
+      "description": "CartMates favicon",
+      "png": [
+        {
+          "path": "public/assets/app/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "public/assets/app/favicon@2x.png",
+          "width": 128,
+          "height": 128
+        }
+      ]
+    }
+  ]
+}
