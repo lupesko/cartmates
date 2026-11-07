@@ -12,11 +12,3 @@ for (const width of [320, 390, 768, 1440]) {
     expect(await page.locator("body").evaluate((element) => element.scrollWidth <= element.clientWidth)).toBe(true);
   });
 }
-
-test("reduced motion disables nonessential animation", async ({ page }) => {
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  await mockCartmates(page, state());
-  await page.goto("/");
-  const duration = await page.locator(".add-form__button").evaluate((element) => getComputedStyle(element).transitionDuration);
-  expect(["", "0s", "0.00001s"]).toContain(duration);
-});

@@ -175,8 +175,8 @@ openssl rand -base64 32 | tr '+/' '-_' | tr -d '='
 - **Vitest** verifies validation, NDJSON, pure transitions, retry keys, and React components.
 - **Cloudflare Vitest integration** runs contract and Durable Object tests in `workerd`, including
   100-operation race/retry trials and restart persistence.
-- **Playwright** verifies phone/desktop interaction, keyboard behavior, axe checks, responsive
-  layouts, collaboration, network recovery, performance, and reviewed app-only snapshots.
+- **Playwright** verifies Chromium interaction, keyboard behavior, responsive layouts,
+  collaboration, network recovery, performance, and reviewed app-only snapshots.
 - **Manual validation** covers screen readers, touch, zoom/reflow, virtual keyboards, and reduced
   motion where automation is insufficient.
 

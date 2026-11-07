@@ -149,8 +149,8 @@ fixtures except for a separate opt-in real-Google smoke test.
    mockup and assets; do not reproduce the mockup's phone hardware chrome.
 3. Complete every action by keyboard. Verify visible focus, logical order, menu semantics, dialog
    focus containment, Escape/cancel behavior, and focus restoration.
-4. Run automated axe checks and verify controls have accessible names and status/error changes are
-   announced without unexpected focus movement.
+4. Run the automated keyboard checks and verify controls have accessible names and status/error
+   changes are announced without unexpected focus movement.
 5. Manually verify a current screen reader, 200% and 400% zoom/reflow, reduced motion, touch-only
    use, and 44-by-44 CSS-pixel minimum targets.
 6. Verify the production initial JavaScript is at or below 150 KiB gzip, excluding images.
