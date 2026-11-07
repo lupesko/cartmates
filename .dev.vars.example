@@ -1,0 +1,9 @@
+# Public deployment configuration
+APP_ORIGIN=http://localhost:8788
+GROUP_DISPLAY_NAME=Our Groceries
+GOOGLE_CLIENT_ID=replace-with-your-google-client-id
+
+# Server-only secrets: use placeholders here and real encrypted values outside Git
+GOOGLE_CLIENT_SECRET=replace-locally
+ALLOWED_EMAILS=person@example.com
+SESSION_ENCRYPTION_KEY=replace-with-exactly-32-random-bytes-base64url

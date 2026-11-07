@@ -77,6 +77,22 @@ npm run build
 npm run test:e2e
 ```
 
+Expected outcomes:
+
+| Command | Expected result |
+|---|---|
+| `npm run lint` | ESLint exits successfully with no warnings promoted to errors. |
+| `npm run typecheck` | All strict browser, Pages, Worker, shared, and test projects compile. |
+| `npm run test` | Unit and component suites pass deterministically. |
+| `npm run test:workers` | Contract, Durable Object, concurrency, retry, and persistence suites pass in `workerd`. |
+| `npm run build` | TypeScript and Vite succeed and initial JavaScript remains at or below 150 KiB gzip. |
+| `npm run check:secrets` | Source/build scan finds no populated secrets, provider tokens, or source maps. |
+| `npm run test:e2e` | Both mobile and desktop Chromium projects pass interaction, axe, responsive, performance, and visual checks. |
+
+Playwright must run on a host that permits Chromium child-process and Mach/namespace registration.
+Managed sandboxes that deny those OS services can validate with `npx playwright test --list`, but the
+browser execution gate remains mandatory in GitHub Actions and on a normal developer host.
+
 The test suites must remain deterministic and must not require production credentials or data.
 Worker tests use isolated local Durable Object storage. Browser tests use controlled authentication
 fixtures except for a separate opt-in real-Google smoke test.
@@ -146,7 +162,7 @@ Use separate Cloudflare resources and secrets for preview and production.
 1. Create/deploy the SQLite-backed Durable Object namespace and private state Worker first:
 
    ```sh
-   npm run deploy:state
+   npm run deploy:state -- --env production
    ```
 
 2. Configure Pages variables and encrypted secrets through Cloudflare, including the external

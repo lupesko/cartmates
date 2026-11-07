@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-rounded, "SF Pro Rounded", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  --navy: #17134f;
+  --navy-soft: #54516d;
+  --purple: #7255ee;
+  --purple-dark: #5d41df;
+  --lavender: #f7f4ff;
+  --lavender-strong: #ebe5ff;
+  --white: #ffffff;
+  --green: #159c55;
+  --green-soft: #e4f7e9;
+  --red: #e32835;
+  --red-soft: #ffebed;
+  --yellow: #ffc318;
+  --shadow: 0 10px 30px rgba(34, 24, 85, 0.09), 0 2px 7px rgba(34, 24, 85, 0.06);
+  --radius-card: 20px;
+  --radius-pill: 999px;
+  --page-max: 680px;
+  --focus: 0 0 0 4px rgba(114, 85, 238, 0.28);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; background: var(--lavender); scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
+body { min-width: 320px; min-height: 100%; margin: 0; color: var(--navy); background: radial-gradient(circle at 75% 10%, #fff 0, transparent 32%), var(--lavender); }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: none; box-shadow: var(--focus); }
+button:disabled { cursor: not-allowed; opacity: 0.55; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

@@ -183,7 +183,7 @@ specs/001-shared-grocery-list/
 ├── vite.config.ts
 ├── vitest.config.ts
 ├── vitest.worker.config.ts
-├── wrangler.pages.jsonc
+├── wrangler.jsonc
 └── wrangler.state.jsonc
 ```
 

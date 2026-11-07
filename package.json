@@ -1,0 +1,53 @@
+{
+  "name": "cartmates",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <26"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:state": "wrangler dev --config wrangler.state.jsonc --port 8787",
+    "dev:pages": "wrangler pages dev dist --port 8788 --do LIST=SharedList@cartmates-state",
+    "lint": "eslint .",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:workers": "WRANGLER_LOG_PATH=.wrangler/logs/test.log vitest run --config vitest.worker.config.ts",
+    "test:e2e": "playwright test",
+    "build": "tsc -b --pretty false && vite build && npm run check:bundle",
+    "check:bundle": "node scripts/check-bundle-size.mjs",
+    "check:secrets": "node scripts/check-secret-exposure.mjs",
+    "deploy:state": "wrangler deploy --config wrangler.state.jsonc",
+    "deploy:pages": "wrangler pages deploy dist --project-name cartmates"
+  },
+  "dependencies": {
+    "jose": "6.2.15",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@cloudflare/vitest-plugin": "1.6.0",
+    "@cloudflare/workers-types": "5.20261106.1",
+    "@eslint/js": "9.39.5",
+    "@playwright/test": "1.65.0",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.8",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.5.2",
+    "jsdom": "29.0.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "4.1.12",
+    "wrangler": "4.158.0"
+  }
+}

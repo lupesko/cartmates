@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cartmates-state",
+  "main": "state-worker/index.ts",
+  "compatibility_date": "2026-11-06",
+  "workers_dev": false,
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [{ "name": "LIST", "class_name": "SharedList" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SharedList"] }],
+  "env": {
+    "preview": {
+      "name": "cartmates-state-preview",
+      "workers_dev": false,
+      "preview_urls": false,
+      "durable_objects": {
+        "bindings": [{ "name": "LIST", "class_name": "SharedList" }]
+      },
+      "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SharedList"] }]
+    },
+    "production": {
+      "name": "cartmates-state-production",
+      "workers_dev": false,
+      "preview_urls": false,
+      "durable_objects": {
+        "bindings": [{ "name": "LIST", "class_name": "SharedList" }]
+      },
+      "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SharedList"] }]
+    }
+  }
+}
